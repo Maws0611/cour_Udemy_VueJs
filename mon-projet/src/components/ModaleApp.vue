@@ -1,6 +1,5 @@
 <template>
     <div class="block-modale" v-if="revel">
-    
         <div class="overlay" v-on:click="toggleModal"></div>
         <div class="modale card">
             <div class="btn-modale btn btn-danger" v-on:click="toggleModal">X</div>

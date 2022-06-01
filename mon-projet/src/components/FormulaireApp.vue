@@ -30,7 +30,7 @@
             <label for="mangue">Mangue</label>
         </div>
     </form>
-    <button v-on:click="envoyerForm" class="btn btn-primary mt-3">Envoiyer les données</button>
+    <button v-on:click="envoyerForm" class="btn btn-primary mt-3">Envoyer les données</button>
     
     <div v-if="formInfo" class="card mt-3">
         <h1 >Résultat</h1>
